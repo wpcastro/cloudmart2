@@ -12,10 +12,10 @@ spec:
       labels:
         app: cloudmart-frontend-app
     spec:
-      serviceAccountName: cloudmart-pod-execution-role2
+      serviceAccountName: cloudmart-pod-execution-role
       containers:
       - name: cloudmart-frontend-app
-        image: CONTAINER_IMAGE
+        image: public.ecr.aws/o4b8k6g6/cloudmaster-frontend
 ---
 
 apiVersion: v1
